@@ -17,6 +17,9 @@
     "react-dom": "^19.2.0",
     "typescript": "^5"
   },
+  "optionalDependencies": {
+    "lightningcss-linux-x64-gnu": "^1.31.1"
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
