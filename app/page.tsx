@@ -1,12 +1,12 @@
-"use client";
-
-import { useEffect } from "react";
 import { sample_node_library_test } from "sample-node-library";
 
 export default function Home() {
-  useEffect(() => {
-    sample_node_library_test();
-  }, []);
+  const message = sample_node_library_test();
 
-  return <div>Welcome to Pantheon Platform</div>;
+  return (
+    <div>
+      <div>Welcome to Pantheon Platform</div>
+      <div>{message}</div>
+    </div>
+  );
 }
