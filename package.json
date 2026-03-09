@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@pantheon-systems/nextjs-cache-handler": "^0.4.0",
+    "sample-node-library": "github:greg-1-anderson/sample-node-library#main",
     "next": "^16.1.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
