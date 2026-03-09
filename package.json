@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "preinstall": "git config --global url.\"https://greg-1-anderson:${G1A_TOKEN}@github.com/\".insteadOf \"https://github.com/\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
