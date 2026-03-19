@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <div>
-      <div>Welcome to Pantheon Platform</div>
+      <div>Welcome to Something Secreter 2</div>
       <div>{message}</div>
     </div>
   );
