@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <div>
-      <div>Welcome to Something Secreter 2</div>
+      <div>Welcome to Something Secreter 2. Building better.</div>
       <div>{message}</div>
     </div>
   );
